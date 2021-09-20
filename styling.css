@@ -1,0 +1,169 @@
+/*style the body element by adding the backgroud image, set it to cover and make fixed when scrolling down, add nice font-family to our body element*/
+
+body {
+    
+    background: url("http://freenaturestock.s3.amazonaws.com/232.jpg") center center no-repeat fixed;
+    background-size: cover;
+    font-family: Arvo,serif;
+    
+}
+
+
+
+
+/*style the brand image*/
+
+.logo {
+     width: 50px;
+    height: 30px;
+     
+}
+
+
+
+/*style navigation bar*/
+
+.navbar-inverse {
+    background: rgba(0,0,0,0.5);
+}
+
+.nav li{
+    color: white;
+    font-size: 17px;
+    margin-right: 35px;
+    padding: 10px 0;
+}
+
+.nav li:hover{
+    
+    border-bottom: 1px solid #33d0a9;
+    cursor: pointer;
+    padding-bottom: 9px;
+}
+
+
+/*style jumbortron with the title inside it*/
+
+.jumbotron {
+    margin-top: 90px;
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    letter-spacing: 2.5px;
+}
+
+
+
+/*limit the width of the icon section*/
+
+.icons {
+    width: 80px;
+    height: 100px;
+}
+
+
+/*style icons section usgin bootstrab grid sytem*/
+
+.col-md-4 {
+    text-align: center;
+    color: white;
+    margin-top: -25px;
+    margin-bottom: 40px
+}
+
+.icons p{
+    font-size: 15px;
+    
+}
+
+.container {
+    max-width: 1000px
+}
+
+
+/*style the contact button*/
+
+
+.btn {
+    background-color: rgba(91,244,182,0.5);
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    height: 35px;
+    width: 210px;
+    line-height: 13px;
+    font-size: 18px;
+    letter-spacing: 1.3px;
+    
+
+}
+
+.btn:hover{
+    
+    background-color: rgba(0,0,0,0.7);
+    color: white;
+    border: none;
+    
+}
+
+
+.touch {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    
+}
+
+
+
+
+
+
+
+/*style our footer */
+
+.footer {
+    background-color: rgba(0,0,0,0.5);
+    color: grey;
+    font-size: 15px;
+    padding: 10px 0;
+    
+}
+
+/*use media queries to change size of icons in small devices*/
+
+
+
+@media(max-width:760px){
+    
+    .icons{
+        
+        height: 70px;
+        
+    } 
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
